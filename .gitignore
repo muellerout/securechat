@@ -1,5 +1,5 @@
 venv/
-tmp/
+tmp/*
 __pycache__/
 .pytest_cache/
 db.sqlite3
