@@ -74,7 +74,7 @@ Docker compose is configured!
 
 ## How to use securechat
 
-Now you can open django admin panel per `127.0.0.1:8000/admin/` in your browser and create some regular expressions (*Regex*) incoming slack messages will be tested against. *Entry* field is regular expression itself. *Description* field is self-explained, just write what your regular expression should match.
+Now you can open django admin panel per `127.0.0.1:8000/admin/` (username: `admin`, password: `admin`. You can change it inside `securechat/Dockerfile`) in your browser and create some regular expressions (*Regex*) incoming slack messages will be tested against. *Entry* field is regular expression itself. *Description* field is self-explained, just write what your regular expression should match.
 
 If an incoming slack message contains the data leaks that the added regular expressions match, the message will be saved to the database, so you can view it and the corresponding regular expression in the django admin panel (*Data leaks*).
 
