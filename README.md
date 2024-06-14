@@ -1,6 +1,6 @@
 # Securechat
 
-Securechar checks on communication channels for possible sensitive data leaks. Its first version uses only Slack yet.
+Securechat checks on communication channels for possible sensitive data leaks. Its first version uses only Slack yet.
 
 ## Built with
 
@@ -68,7 +68,7 @@ Docker compose is configured!
 
 2. Once you got the server up and running, open your slack app's control panel and go to **Event subscriptions**.
 
-3. Enable events and copy your ngrok domain in the *Request URL* field as follows `https://<your-ngrok-domain>/slack/`. You should see *Verified* if you everything went smooth.
+3. Enable events and copy your ngrok domain in the *Request URL* field as follows `https://<your-ngrok-domain>/slack/`. You should see *Verified* if everything went smooth.
 
 4. In the *Subscribe to events on behalf of users* section, add a workspace event `message.channels`. This event allows Slack Events API to send you a webhook request if a message is posted to any channel in the slack app's workspace.
 
