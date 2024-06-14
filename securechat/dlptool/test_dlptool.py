@@ -34,6 +34,16 @@ dataset = [
         'Very sensitive information!',
         [],
         None
+    ),
+
+    (
+        'Very secure message without any leaks...',
+        [
+            r'.*ID\d+.*', 
+            r'.*password\:|\s.*', 
+            r'.*[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}.*'
+        ],
+        None
     )
 ]
 
